@@ -125,6 +125,28 @@
     }
 
     footer {
-        height: 0px;
+        height: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .baixar {
+        background-color: yellow;
+        width: 300px;
+        height: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: chocolate;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: larger;
+
+        border-style: solid;
+        border-radius: 10px;
     }
 }

@@ -1,20 +1,101 @@
 * {
-    margin: 0;
+    margin: 0px;
 }
 
 @media screen and (max-width: 1024px) {
+    body {
+        background-color: rgb(24, 14, 65);
+    }
+
     .cabecalho {
         padding: 20px;
+        background-color: black;
 
         display: flex;
     }
 
     .links {
         width: 100%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        position: relative;
+        left: -70px;
 
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 50px
+        gap: 70px
+    }
+
+    .categoria {
+        width: 50%;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        color: rgb(250, 250, 250);
+    }
+
+    .jogo {
+        display: flex;
+        margin: 10px 10px;
+        background-color:rgb(10, 10, 10);
+        border-style: outset;
+        border-color: rgb(70, 70, 150);
+    }
+
+    .imgJogo {
+        padding: 20px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .tituloJogo {
+        width: 630px;
+        padding: 20px;
+        gap: 5px;
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100%;
+        color: rgb(200, 200, 200);
+
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .comprar {
+        font-weight: bolder;
+        color: rgb(129, 95, 10);
+        background-color: yellow;
+        border-style: outset;
+        border-color: darkgoldenrod;
+
+        display: flex;
+    }
+
+    footer {
+        height: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .baixar {
+        background-color: yellow;
+        width: 300px;
+        height: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: chocolate;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: larger;
+
+        border-style: solid;
+        border-radius: 10px;
     }
 }
